@@ -1,3 +1,6 @@
 [submodule "Projects/golden-path-lib"]
 	path = Projects/golden-path-lib
 	url = ./Projects/golden-path-lib
+[submodule "Projects/James-Mariolle"]
+	path = Projects/James-Mariolle
+	url = ./Projects/James-Mariolle
