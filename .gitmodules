@@ -1,0 +1,3 @@
+[submodule "Projects/golden-path-lib"]
+	path = Projects/golden-path-lib
+	url = ./Projects/golden-path-lib
