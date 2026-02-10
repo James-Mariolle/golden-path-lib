@@ -2,9 +2,9 @@
 
 flowchart LR
   User[Developer / Contributor] -->|push| Repo[GitHub Repo]
-  Repo --> CI[GitHub Actions\n(Markdown lint, PS smoke)]
-  CI -->|runs| Smoke[Scripts/smoke.ps1]
-  Repo --> Docs[Documenation (diagrams, guides)]
+  Repo --> CI["GitHub Actions<br/>(Markdown lint, PS smoke)"]
+  CI -->|runs| Smoke["Scripts/smoke.ps1"]
+  Repo --> Docs["Documentation (diagrams, guides)"]
   Docs --> ExampleBicep[Modules/example-bicep]
   Repo --> Monitoring[OpenTelemetry / Grafana]
   Monitoring --> Logs[Telemetry & Dashboards]
