@@ -1,3 +1,6 @@
 [submodule "Projects/James-Mariolle"]
 	path = Projects/James-Mariolle
 	url = https://github.com/James-Mariolle/James-Mariolle.git
+[submodule "Projects/golden-path-lib"]
+	path = Projects/golden-path-lib
+	url = https://github.com/James-Mariolle/golden-path-lib
