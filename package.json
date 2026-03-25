@@ -1,8 +1,8 @@
 {
-  "name": "Git",
+  "name": "@james-mariolle/golden-path-lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesmariolle216/Git.git"
+    "url": "https://github.com/James-Mariolle/golden-path-lib.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -29,7 +29,7 @@
     "projen": "npx projen"
   },
   "author": {
-    "name": "JamesOfTechToks",
+    "name": "James Mariolle",
     "email": "jamesmariolle216@gmail.com",
     "organization": false
   },
@@ -39,7 +39,7 @@
     "@types/node": "^25.3.3",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "aws-cdk-lib": "2.189.1",
+    "aws-cdk-lib": "2.114.0",
     "commit-and-tag-version": "^12",
     "constructs": "10.5.1",
     "eslint": "^9",
@@ -58,7 +58,7 @@
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.189.1",
+    "aws-cdk-lib": "^2.114.0",
     "constructs": "^10.5.1"
   },
   "keywords": [
@@ -66,9 +66,6 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "0.0.0",
   "jest": {
     "coverageProvider": "v8",
