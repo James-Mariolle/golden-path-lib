@@ -5,7 +5,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.189.1',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.9.0',
-  name: 'golden-path-lib',
+  name: '@jamesoftechtoks/golden-path-lib',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/James-Mariolle/golden-path-lib.git',
   packageManager: javascript.NodePackageManager.NPM,
