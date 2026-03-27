@@ -1,4 +1,4 @@
-import { awscdk } from 'projen';
+import { awscdk, javascript } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'JamesOfTechToks',
   authorAddress: 'jamesmariolle216@gmail.com',
@@ -8,6 +8,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'golden-path-lib',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/James-Mariolle/golden-path-lib.git',
+  packageManager: javascript.NodePackageManager.NPM,
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
