@@ -1,5 +1,5 @@
 {
-  "name": "golden-path-lib",
+  "name": "@jamesoftechtoks/golden-path-lib",
   "repository": {
     "type": "git",
     "url": "https://github.com/James-Mariolle/golden-path-lib.git"
@@ -66,9 +66,6 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "0.0.0",
   "jest": {
     "coverageProvider": "v8",
