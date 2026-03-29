@@ -11,6 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/James-Mariolle/golden-path-lib.git',
   packageManager: javascript.NodePackageManager.NPM,
 
+
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
