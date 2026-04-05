@@ -10,6 +10,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   repositoryUrl: 'https://github.com/James-Mariolle/golden-path-lib.git',
   packageManager: javascript.NodePackageManager.NPM,
+  projenVersion: '0.99.24',
+  projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
 
 
   // deps: [],                /* Runtime dependencies of this module. */
