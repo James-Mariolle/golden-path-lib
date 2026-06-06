@@ -12,6 +12,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   packageManager: javascript.NodePackageManager.NPM,
   projenVersion: '0.99.24',
   projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
+  workflowNodeVersion: '22',
 
 
   // deps: [],                /* Runtime dependencies of this module. */
